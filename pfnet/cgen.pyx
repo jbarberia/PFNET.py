@@ -28,6 +28,7 @@ cdef class Generator:
 
     cdef bint alloc
     cdef cgen.Gen* _c_ptr
+    cdef dict __dict__ 
 
     def __init__(self, num_periods=1, alloc=True):
         """

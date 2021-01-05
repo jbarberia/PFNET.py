@@ -24,6 +24,7 @@ cdef class BranchDC:
 
     cdef cbranch_dc.BranchDC* _c_ptr
     cdef bint alloc
+    cdef dict __dict__ 
 
     def __init__(self, num_periods=1, alloc=True):
         """

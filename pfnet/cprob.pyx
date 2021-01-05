@@ -28,6 +28,7 @@ cdef class Problem:
     cdef list _constraints
     cdef list _heuristics
     cdef Network _net
+    cdef dict __dict__ 
 
     def __init__(self, Network net):
         """
