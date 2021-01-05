@@ -10,7 +10,11 @@ Python Interface to PFNET
 .. image:: https://readthedocs.org/projects/pfnet-python/badge/?version=latest
    :target: http://pfnet-python.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
-
+   
+.. image:: https://img.shields.io/pypi/pyversions/PFNET
+   :target: https://pypi.python.org/pypi/ansicolortags
+   
+   
 Overview
 --------
 
