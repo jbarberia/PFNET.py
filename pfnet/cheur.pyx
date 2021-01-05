@@ -26,6 +26,7 @@ cdef class HeuristicBase:
     cdef cheur.Heur* _c_heur
     cdef bint _alloc
     cdef Network _net
+    cdef dict __dict__ 
 
     def __init__(self):
         """
